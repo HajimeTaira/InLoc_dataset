@@ -1,12 +1,12 @@
 
 # a. cutouts
 cutouts_url="http://only.oknet/INLOC_tmp/materials/cutouts.tar.gz"
-wget -O database/ $cutouts_url 
+wget -O database/cutouts.tar.gz $cutouts_url 
 tar -zxvf database/cutouts.tar.gz -C database/
 
 # b. scans
 scans_url="http://only.oknet/INLOC_tmp/materials/scans.tar.gz"
-wget -O database/ $scans_url 
+wget -O database/scans.tar.gz $scans_url 
 tar -zxvf database/scans.tar.gz -C database/
 tar -xvf database/scans/CSE3.tar -C database/scans
 tar -xvf database/scans/CSE4.tar -C database/scans
