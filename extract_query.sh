@@ -1,7 +1,7 @@
-src="query/iphone7.tar"
+src="query/iphone7.tar.gz"
 dst="query"
-query_url="http://only.oknet/INLOC_tmp/materials/iphone7.tar"
+query_url="http://only.oknet/INLOC_tmp/materials/iphone7.tar.gz"
 
 wget -O $src $query_url
 
-tar -xvf $src -C $dst
+tar -zxvf $src -C $dst
