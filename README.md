@@ -5,13 +5,13 @@ We also provide color RGB perspective images and depth maps which are generated 
 
 This repository provides the tools for constructing the whole of InLoc datset in the proper format to be easily used by [our InLoc demo and evaluation toolkit](https://github.com/HajimeTaira/WUSTL_demo). 
 
+- 2020.8.6 Update: Now we prepared alternative Dropbox links to our dataset. Please try `extract_db_all_mirror.sh` or `extract_query_mirror.sh` if the original shell scripts take much time for getting data. 
+
 ## Usage
 
-1. Download transformation matrices from <http://cvpr17.wijmans.xyz/> in the zip format. Put all zip files to ``database/alignments/zips/``. 
+1. Download and extract all database files: Run ``./extract_db_all.sh`` in the terminal. 
 
-2. Download and extract all database files: Run ``./extract_db_all.sh`` in the terminal. 
-
-3. Download and extract query images: Run ``extract_query.sh`` in the terminal. 
+2. Download and extract query images: Run ``extract_query.sh`` in the terminal. 
 
 ## Structure
 
