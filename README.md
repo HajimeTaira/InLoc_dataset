@@ -3,9 +3,10 @@
 Our InLoc dataset [2] contains color RGB images taken by iphone7 from different locations, times from original WUSTL RGBD [1], and 6DoF reference poses which are manually verified and able to be used for evaluating visual localization methods. 
 We also provide color RGB perspective images and depth maps which are generated from RGBD scans originally provided by [1] and used as the database for InLoc dataset in our paper. 
 
-This repository provides the tools for constructing the whole of InLoc datset in the proper format to be easily used by [our InLoc demo and evaluation toolkit](https://github.com/HajimeTaira/WUSTL_demo). 
+This repository provides the tools for constructing the whole of InLoc datset in the proper format to be easily used by [our InLoc demo and evaluation toolkit](https://github.com/HajimeTaira/InLoc_demo). 
 
 - 2020.8.6 Update: Now we prepared alternative Dropbox links to our dataset. Please try `extract_db_all_mirror.sh` or `extract_query_mirror.sh` if the original shell scripts take much time for getting data. 
+
 
 ## Usage
 
