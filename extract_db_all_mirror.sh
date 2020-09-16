@@ -13,6 +13,10 @@ tar -zxvf database/cutouts/DUC2_1.tar.gz -C database/cutouts/
 cutouts_url="https://www.dropbox.com/s/eu5bn4fgxr2kl97/DUC2_2.tar.gz?dl=1"
 wget -O database/cutouts/DUC2_2.tar.gz $cutouts_url 
 tar -zxvf database/cutouts/DUC2_2.tar.gz -C database/cutouts/
+#old link potentially causing file corruption:
+# cutouts_url="https://www.dropbox.com/s/t2izj3dkzk81jg4/DUC2.tar.bz2?dl=1"
+# wget -O database/cutouts/DUC2.tar.bz2 $cutouts_url 
+# tar -jxvf database/cutouts/DUC2.tar.bz2 -C database/cutouts/
 
 # CSE3
 cutouts_url="https://www.dropbox.com/s/o9ifb0mfe57e9w7/CSE3.tar.bz2?dl=1"
