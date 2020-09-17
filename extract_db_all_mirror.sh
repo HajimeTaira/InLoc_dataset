@@ -1,24 +1,53 @@
 
 # a. cutouts
+# DUC1
 cutouts_url="https://www.dropbox.com/s/i19j9mnrrvbpywp/DUC1.tar.bz2?dl=1"
 wget -O database/cutouts/DUC1.tar.bz2 $cutouts_url 
 tar -jxvf database/cutouts/DUC1.tar.bz2 -C database/cutouts/
 
-cutouts_url="https://www.dropbox.com/s/t2izj3dkzk81jg4/DUC2.tar.bz2?dl=1"
-wget -O database/cutouts/DUC2.tar.bz2 $cutouts_url 
-tar -jxvf database/cutouts/DUC2.tar.bz2 -C database/cutouts/
+# DUC2
+cutouts_url="https://www.dropbox.com/s/7mqziqedmwtsiec/DUC2_1.tar.gz?dl=1"
+wget -O database/cutouts/DUC2_1.tar.gz $cutouts_url 
+tar -zxvf database/cutouts/DUC2_1.tar.gz -C database/cutouts/
 
+cutouts_url="https://www.dropbox.com/s/eu5bn4fgxr2kl97/DUC2_2.tar.gz?dl=1"
+wget -O database/cutouts/DUC2_2.tar.gz $cutouts_url 
+tar -zxvf database/cutouts/DUC2_2.tar.gz -C database/cutouts/
+#old link potentially causing file corruption:
+# cutouts_url="https://www.dropbox.com/s/t2izj3dkzk81jg4/DUC2.tar.bz2?dl=1"
+# wget -O database/cutouts/DUC2.tar.bz2 $cutouts_url 
+# tar -jxvf database/cutouts/DUC2.tar.bz2 -C database/cutouts/
+
+# CSE3
 cutouts_url="https://www.dropbox.com/s/o9ifb0mfe57e9w7/CSE3.tar.bz2?dl=1"
 wget -O database/cutouts/CSE3.tar.bz2 $cutouts_url 
 tar -jxvf database/cutouts/CSE3.tar.bz2 -C database/cutouts/
 
-cutouts_url="https://www.dropbox.com/s/ma3t1kcr95pgoip/CSE4.tar.bz2?dl=1"
-wget -O database/cutouts/CSE4.tar.bz2 $cutouts_url 
-tar -jxvf database/cutouts/CSE4.tar.bz2 -C database/cutouts/
+# CSE4
+cutouts_url="https://www.dropbox.com/s/lm21d0vpaxb2u7j/CSE4_1.tar.gz?dl=1"
+wget -O database/cutouts/CSE4_1.tar.gz $cutouts_url 
+tar -zxvf database/cutouts/CSE4_1.tar.gz -C database/cutouts/
 
-cutouts_url="https://www.dropbox.com/s/viw9d2z3d90rfkz/CSE5.tar.bz2?dl=1"
-wget -O database/cutouts/CSE5.tar.bz2 $cutouts_url 
-tar -jxvf database/cutouts/CSE5.tar.bz2 -C database/cutouts/
+cutouts_url="https://www.dropbox.com/s/9znelaty1gozmzs/CSE4_2.tar.gz?dl=1"
+wget -O database/cutouts/CSE4_2.tar.gz $cutouts_url 
+tar -zxvf database/cutouts/CSE4_2.tar.gz -C database/cutouts/
+#old link potentially causing file corruption:
+# cutouts_url="https://www.dropbox.com/s/ma3t1kcr95pgoip/CSE4.tar.bz2?dl=1"
+# wget -O database/cutouts/CSE4.tar.bz2 $cutouts_url 
+# tar -jxvf database/cutouts/CSE4.tar.bz2 -C database/cutouts/
+
+# CSE5
+cutouts_url="https://www.dropbox.com/s/jqapt0getn8bsvn/CSE5_1.tar.gz?dl=1"
+wget -O database/cutouts/CSE5_1.tar.gz $cutouts_url 
+tar -zxvf database/cutouts/CSE5_1.tar.gz -C database/cutouts/
+
+cutouts_url="https://www.dropbox.com/s/zmzossyx1h2krv4/CSE5_2.tar.gz?dl=1"
+wget -O database/cutouts/CSE5_2.tar.gz $cutouts_url 
+tar -zxvf database/cutouts/CSE5_2.tar.gz -C database/cutouts/
+#old link potentially causing file corruption:
+# cutouts_url="https://www.dropbox.com/s/viw9d2z3d90rfkz/CSE5.tar.bz2?dl=1"
+# wget -O database/cutouts/CSE5.tar.bz2 $cutouts_url 
+# tar -jxvf database/cutouts/CSE5.tar.bz2 -C database/cutouts/
 
 # b. scans
 scans_url="https://www.dropbox.com/s/8xgyswufmeqelz3/DUC1.tar.bz2?dl=1"
